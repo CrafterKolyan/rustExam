@@ -1,20 +1,19 @@
-# Answer 45
-
 ## 📘 Section: Functions I  
-### 🔹 Category: Functions Returning Unit  
-#### ✅ Answer 45: Function returning nothing (`()`)
+### 🔹 Category: Function Parameters  
+#### ✅ Answer 45: Function with multiple parameters
 
 **Explanation:**
-A function that returns nothing in Rust has the unit type `()`. This is common for functions that perform actions but do not return a value.
+Functions in Rust can take multiple parameters, each with a specified type.
 
 **Example:**
 ```rust
-fn log_message(msg: &str) {
-    println!("{}", msg);
+fn multiply(a: i32, b: i32) -> i32 {
+    a * b
 }
 
 fn main() {
-    log_message("This function returns nothing!");
+    let result = multiply(3, 4);
+    println!("{}", result);
 }
 ```
-Here, `log_message` returns `()`, the unit type, implicitly.
+Here, `multiply` takes two parameters and returns their product.
