@@ -1,10 +1,10 @@
 ## 📘 Section: Functions I  
-### 🔹 Category: Functions Returning Unit  
-#### ❓ Question 45: Function returning nothing (`()`)
+### 🔹 Category: Function Parameters  
+#### ❓ Question 45: Function with multiple parameters
 
-Write a Rust function that returns nothing (unit type `()`).
+Write a Rust function that takes multiple parameters.
 
-- Define a function named `log_message` that takes a string slice and prints it.
-- Call this function from `main`.
+- Define a function named `multiply` that takes two `i32` parameters and returns their product.
+- Call this function from `main` and print the result.
 
-🔧 **Task:** Demonstrate how to write and use a function that returns the unit type in Rust.
+🔧 **Task:** Show how to define and use a function with multiple parameters in Rust.
